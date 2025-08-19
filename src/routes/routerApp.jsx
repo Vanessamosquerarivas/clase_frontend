@@ -1,8 +1,26 @@
+import Contacto from "../pages/Contacto";
+import Home from "../pages/Home";
 import Login from "../pages/Login";
+import Servicios from "../pages/Servicios";
 
 export let  routerApp = [
     {
         path:"/",
         element: <Login/>
-    }
+    },
+
+     {
+        path:"/Servicios",
+        element: <Servicios/>
+    },
+     {
+        path:"/Contacto",
+        element: <Contacto/>
+    },
+    
+     {
+        path:"/Home",
+        element: <Home/>
+    },
+    
 ];
