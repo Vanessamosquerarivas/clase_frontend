@@ -23,4 +23,8 @@ export let  routerApp = [
         element: <Home/>
     },
     
+    {
+        path:"*",
+        element: <h1>ERROR 404</h1>,
+    },
 ];
